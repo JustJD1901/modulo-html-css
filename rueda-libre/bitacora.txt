@@ -1,3 +1,5 @@
+Análisis de petición del servidor:
+
 URL: http://127.0.0.1:5500/rueda-libre/index.html
 Protocolo: http://
 Host: 127.0.0.1
@@ -6,6 +8,21 @@ Ruta: /rueda-libre/index.html
 Método de petición: Get
 Código de estado: 304
 Código de ruta inexistente: 404, indica que no se ha encontrado la solicitud requerida.
+
+Roles:
+
 HTML: Va a tener el rol de dar la estructura básica a la página web, los encabezados y el texto con la información, por ejemplo.
 CSS: Va a tener el rol de estilizar y dar presentación a la página, por ejemplo el color del fondo, el tamaño color y contraste de los títulos.
 JavaScript: Tendrá el rol de dar funcionalidad y asignar comportamiento a la página, por ejemplo la funcionalidad de botones y los menús desplegables.
+
+Tabla de rutas:
+
+- index.html:
+    index.html → tarifas.html → /paginas/tarifas.html
+    index.html → reservas.html → /paginas/reservas.html
+- reservas.html:
+    reservas.html → index.html → ../index.html
+    reservas.html → tarifas.html → tarifas.html
+- tarifas.html:
+    tarifas.html → index.html → ../index.html
+    tarifas.html → reservas.html → reservas.html
