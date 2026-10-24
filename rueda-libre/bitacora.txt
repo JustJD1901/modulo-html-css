@@ -26,3 +26,9 @@ Tabla de rutas:
 - tarifas.html:
     tarifas.html → index.html → ../index.html
     tarifas.html → reservas.html → reservas.html
+
+Elecciones MiniReto 6:
+
+- Para el campo de Tipo de Bicicleta utilicé <select>, pues permite seleccionar solo una opción a la vez y hace que las opciones comparten el mismo nombre.
+- Para el campo de Cantidad de bicicleta, utilicé un type=number, pues este guarda una cantidad de un objeto específico, en este caso la cantidad de bicicletas a alquilar.
+- Para el campo de Políticas de alquiler, utilicé el type=checkbox, pues este permite aceptar o negar algún requerimento.
